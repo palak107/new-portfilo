@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+
+}
+.navlist{
+    background-color: black;
+   
+}
+.navlist ul {
+    
+    overflow: auto;
+    
+}
+.navlist li{
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+}
+.navlist li a{
+    padding: 3px 3px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.f1{
+    display: flex;
+justify-content: space-around;
+margin: 20px;
+}
+    .left{
+        
+        padding: 10px;
+        margin: 30px;
+    }
+.right{
+ padding: 10px;
+ margin: 10px;
+}
+ div h1{
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.index{
+    color:blue;
+}
+div p{
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.about{
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+justify-content: space-around;
+margin: 20px;
+}
+.pic{
+    padding: 10px;
+    margin:30px
+}
+.content{
+    padding: 10px;
+    margin:50px
+}
+.third{
+    max-width: 80vw;
+
+}
+.service{
+    text-align: center;
+}
+
+.help{
+    width:85%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:75px auto;
+    text-align: center;
+
+}
+.card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 20px;
+    padding:20px 20px;
+background-color: aliceblue;
+border-radius: 10px;
+}
+.cointer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(255px,1fr));
+    grid-gap:40px;
+    margin-top:50px;
+
+}
+.fifth{
+   
+    max-width: 100vw;
+}
+.name{
+    text-align: center;
+}
+.fifth{
+   max-width: 80vw;
+    margin: auto;
+}
+.email{
+    margin:30px;
+}
+.tel{
+    margin:20px;
+}
+.insta{
+    margin:10px;
+}
+
+    .sixth{
+ max-width: 200w;
+    }
+
+.content{
+    position: relative;
+    background-color:aliceblue;
+    height:100%
+}
+form{
+    max-width: 550px;
+    width:200%;
+    margin: 5%;
+    padding: 40px;
+    border-radius: 3px;
+    box-sizing:border-box;
+
+}
+.that{
+    text-align: center;
+    margin:0%;
+}
+label{
+    display: block;
+    margin:20px 0px;
+}
+input,textarea{
+    width:200%;
+    padding:20px;
+    text-align: center;
+    box-sizing: border-box;
+    outline: none;
+    resize:none;
+    border:none;
+    border-bottom: 1px solid black;
+}
+textarea ::-webkit-scrollbar{
+    width:4px;
+}
+.end{
+    background-color: black;
+    height: auto;
+color:aliceblue;
+text-align: center;
+display: flex;
+height:233px;
+justify-content: space-evenly;
+}
+.end a{
+color: aliceblue;
+text-decoration: none;}
